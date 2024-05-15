@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vw;
+    width: 100vw;
+    background-image: linear-gradient(to bottom right, #626262, #758586);
+    color: #e4f2ff;
+    font-family: "Montserrat", sans-serif;
+    cursor: default;
+}
+
+header {
+    background: linear-gradient(to right, #3a3a3a, #707070);
+    ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e4f2ff;
+    letter-spacing: 8px;
+
+}
+
+main {
+    display: grid;
+    justify-items: center;
+}
+
+#introducao {
+    text-align: justify;
+    width: 50%;
+    padding: 10px 5px;
+}
+
+#desenvolvimento {
+    width: 50%;
+    text-align: justify;
+}
+
+#contadores {
+    display: flex;
+}
+
+.objetivos {
+    width: 100%;
+    padding: 4px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8e8e8e;
+    color: #e4f2ff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.textos {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 17px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 300;
+    backdrop-filter: blur(10px);
+}
+
+.ativa {
+    display: block;
+}
+
+.ativo {
+    background-color: #e4f2ff;
+    color: #8e8e8e;
+}
